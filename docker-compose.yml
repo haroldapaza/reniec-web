@@ -1,0 +1,7 @@
+services:
+  ren-web:
+    build: .
+    container_name: reniec-web
+    restart: unless-stopped
+    ports:
+      - "5051:80"
